@@ -14,30 +14,36 @@
     <div class="signup-form-container">
         <h2>Cadastre-se e participe do nosso projeto!</h2>
         <form class="signup-form">
-            <div class="name-container">
-                <label class="input-title">Nome:</label>
-                <input type="text" name="name" class="input-field">
+            <div class="field-container">
+                <label for="name" class="input-title">Nome:</label>
+                <div class="input-container">
+                    <input value id="name" type="text" name="name" class="input-field">
+                </div>
             </div>
-            <div class="mail-container">
-                <label class="input-title">Endereço de e-mail:</label>
-                <input type="text" name="mail" class="input-field">
+            <div class="field-container">
+                <label for="mail" class="input-title">Endereço de e-mail:</label>
+                <div class="input-container">
+                    <input type="text" name="mail" class="input-field" value id="mail">
+                </div>
             </div>
-            <div class="school-year-container">
-                <label class="input-title">Ano escolar:</label>
-                <select class="input-field">
-                    <option value="1">1º ano</option>
-                    <option value="2">2º ano</option>
-                    <option value="3">3º ano</option>
-                    <option value="4">4º ano</option>
-                </select>
+            <div class="field-container">
+                <label for="year" class="input-title">Ano escolar:</label>
+                <div class="input-container">
+                    <select id="year" class="input-field">
+                        <option value="1">1º ano</option>
+                        <option value="2">2º ano</option>
+                        <option value="3">3º ano</option>
+                        <option value="4">4º ano</option>
+                    </select>
+                </div>
             </div>
             <button class="submit-button" type="submit">Enviar</button>
         </form>
     </div>
     <div class="about-section">
-        <h2 class="about-title">Conheça o Hack Club</h3>
+        <h2 class="about-title">Conheça o Hack Club</h2>
         <p class="about-short-desc">O projeto que vai mudar para sempre seu jeito de ver os hackers!</p>
-        <div class="specs">
+        <div class="table-format">
             <div class="row">
                 <ul class="row-list">
                     <li class="item">Oficinas práticas!</li>
@@ -55,7 +61,7 @@
         </div>
     </div>
     <div class="members-section">
-        <div class="leaders-section">
+        <div class="leaders-section table-format">
             <h3 class="leaders-title">Líderes</h3>
             <div class="member-section leader">
                 <img src="" alt="" class="member-picture">
@@ -73,7 +79,7 @@
                 <p class="member-mail">franchini211@gmail.com</p>
             </div>
         </div>
-        <div class="monitors-section">
+        <div class="monitors-section table-format">
             <h3 class="monitor-title">Monitores</h3>
             <div class="member-section monitor">
                 <img src="" alt="" class="member-picture">
@@ -90,6 +96,20 @@
                 <h4 class="member-name">Matheus</h4>
                 <p class="member-mail">matheushsdshd@gmail.com</p>
             </div>
+        </div>
+    </div>
+    <div class="partners">
+        <h2>Conheça essas empresas incríveis que têm nos ajudado!</h2>
+        <div class="partner-images">
+            <a href="https://hackclub.com" class="partner-link">
+                <img src="img/logos/hc_logo.svg" class="partner-logo" alt="Hack Club logo">
+            </a>
+            <a href="http://github.com" class="partner-link">
+                <img src="./img/logos/github_white_logo.png" class="partner-logo" alt="GitHub logo">
+            </a>
+            <a href="https://www.stickermule.com" class="partner-link">
+                <img src="./img/logos/stickermule_logo.png" class="partner-logo" alt="Stickermule logo">
+            </a>
         </div>
     </div>
     <div class="footer">

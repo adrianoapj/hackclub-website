@@ -6,6 +6,8 @@ body {
     background-color: #e42d42;
     font-family: "Phantom Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #fff;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -18,6 +20,94 @@ body {
     width: 10%;
 }
 
-.specs {
+.signup-form-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-form {
+    padding: 50px 200px;
+    border: 3px solid white;
+    border-radius: 2%;
+    margin: 5px 5px;
+    width: 50%;
+}
+
+.field-container {
+    margin-bottom: 30px;
+}
+
+.input-title {
+    font-size: 17px;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+.input-field {
+    width: 100%;
+    height: 30px;
+    border: 1px solid darkgray;
+    border-radius: 5%;
+    color: black;
+    background-color: white;
+    padding: 3px;
+    margin: 0;
+}
+
+.input-field:hover {
+    border: 2px solid darkgray;
+}
+
+.submit-button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #e42d42;
+    border: 2px solid white;
+    border-radius: 2%;
+    padding: 3px;
+    margin: 0;
+    font-weight: bold;
+    cursor: none;
+    font-size: 17px;
+    transition: background-color 0.8s;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    background-color: #e41a2c;
+    transition: background-color 0.8s;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-format {
+    display: flex;
+}
+
+.members-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.partner-logo {
+    width: 200px;
+}
+
+.footer {
+    background-color: darkgray;
 }
